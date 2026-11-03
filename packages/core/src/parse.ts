@@ -167,12 +167,15 @@ export function serializeRich(parts: Part[]): RichText {
   return { template: normalizeSpace(emit(parts)), values, tags }
 }
 
-export function parseJs(code: string, { typescript = true, jsx = true }: { typescript?: boolean; jsx?: boolean } = {}): any {
+export function parseJs(
+  code: string,
+  { typescript = true, jsx = true, strict = false }: { typescript?: boolean; jsx?: boolean; strict?: boolean } = {},
+): any {
   return babelParse(code, {
     sourceType: 'unambiguous',
     allowReturnOutsideFunction: true,
     allowAwaitOutsideFunction: true,
-    errorRecovery: true,
+    errorRecovery: !strict,
     plugins: [
       ...(typescript ? (['typescript'] as const) : []),
       ...(jsx ? (['jsx'] as const) : []),

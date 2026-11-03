@@ -10,6 +10,7 @@
  * Run: node test/integration.mjs   (after `npm run build`)
  */
 import fs from 'node:fs'
+import Module from 'node:module'
 import os from 'node:os'
 import path from 'node:path'
 import { fileURLToPath, pathToFileURL } from 'node:url'
@@ -27,6 +28,15 @@ registerHooks({
 })
 
 const vscode = await import(pathToFileURL(stubPath).href)
+
+// The extension ships as CommonJS (VS Code 1.98 loads `main` with require(), and an ESM
+// entry dies with ERR_REQUIRE_ESM). Its `require('vscode')` goes through the CJS loader,
+// which the ESM resolve hook above never sees.
+const loadModule = Module._load
+Module._load = function patchedLoad(request, parent, isMain) {
+  if (request === 'vscode') return vscode
+  return loadModule.call(this, request, parent, isMain)
+}
 const { state } = vscode
 
 let failures = 0

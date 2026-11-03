@@ -107,6 +107,11 @@ for (const pkg of vendored) {
   }
   fs.writeFileSync(path.join(dir, 'package.json'), `${JSON.stringify(manifest, null, 2)}\n`)
   copyDir(path.join(pkg.root, 'dist'), path.join(dir, 'dist'))
+  // The extension is CommonJS, so it consumes the `require` condition of these packages;
+  // both flavours have to be inside the vsix or activation dies with ERR_MODULE_NOT_FOUND.
+  if (fs.existsSync(path.join(pkg.root, 'dist-cjs'))) {
+    copyDir(path.join(pkg.root, 'dist-cjs'), path.join(dir, 'dist-cjs'))
+  }
 }
 
 /* --- third-party runtime closure --- */
@@ -128,13 +133,90 @@ console.log(`vendored ${closure.length} runtime packages: ${closure.join(', ')}`
 const ignore = ['.stage', 'test', 'scripts', 'src', 'tsconfig*.json', '*.map', 'node_modules/.bin']
 fs.writeFileSync(path.join(stage, '.vscodeignore'), `${ignore.join('\n')}\n`)
 
+/* --- runtime import audit ---
+ * A dependency that is imported at runtime but only declared in devDependencies compiles
+ * fine and then makes the installed extension fail to activate with "command not found".
+ * That is exactly how `typescript` shipped in 0.1.0: the syntax gate imported it, the
+ * packager only walked `dependencies`, and VS Code reported a missing command. Fail the
+ * build instead of the user's activation.
+ *
+ * Parsed, not grepped: core emits code strings that contain `import { t } from '@/i18n'`,
+ * and a text scan mistakes those for real imports.
+ */
+const { parse: babelParse } = await import(pathToFileURL(path.join(nodeModules, '@babel/parser', 'lib', 'index.js')).href)
+function importSpecifiers(code) {
+  const ast = babelParse(code, { sourceType: 'unambiguous', plugins: ['jsx', 'typescript'], errorRecovery: true })
+  const specs = []
+  const stack = [ast.program]
+  while (stack.length) {
+    const node = stack.pop()
+    if (!node || typeof node !== 'object') continue
+    if (node.type === 'ImportDeclaration' || node.type === 'ExportAllDeclaration' || node.type === 'ExportNamedDeclaration') {
+      if (node.source) specs.push(node.source.value)
+    }
+    if (node.type === 'ImportExpression' && node.source?.type === 'StringLiteral') specs.push(node.source.value)
+    if (node.type === 'CallExpression' && node.callee?.type === 'Import' && node.arguments[0]?.type === 'StringLiteral') {
+      specs.push(node.arguments[0].value)
+    }
+    // CommonJS output: require('x') never shows up as an ImportDeclaration.
+    if (
+      node.type === 'CallExpression' &&
+      node.callee?.type === 'Identifier' &&
+      node.callee.name === 'require' &&
+      node.arguments[0]?.type === 'StringLiteral'
+    ) {
+      specs.push(node.arguments[0].value)
+    }
+    for (const key of Object.keys(node)) {
+      if (key === 'loc' || key === 'start' || key === 'end') continue
+      const child = node[key]
+      if (Array.isArray(child)) stack.push(...child)
+      else if (child && typeof child === 'object' && typeof child.type === 'string') stack.push(child)
+    }
+  }
+  return specs
+}
+
+function auditRuntimeImports() {
+  const missing = new Map()
+  const scan = (dir) => {
+    if (!fs.existsSync(dir)) return
+    for (const rel of walk(dir, dir)) {
+      if (!rel.endsWith('.js')) continue
+      const full = path.join(dir, rel)
+      let specs
+      try {
+        specs = importSpecifiers(fs.readFileSync(full, 'utf8'))
+      } catch (e) {
+        throw new Error(`${path.relative(stage, full)}: cannot parse for import audit — ${e.message}`)
+      }
+      for (const spec of specs) {
+        if (typeof spec !== 'string' || spec.startsWith('.') || spec.startsWith('node:') || spec === 'vscode') continue
+        const name = spec.startsWith('@') ? spec.split('/').slice(0, 2).join('/') : spec.split('/')[0]
+        if (!fs.existsSync(path.join(stage, 'node_modules', name))) {
+          if (!missing.has(name)) missing.set(name, new Set())
+          missing.get(name).add(path.relative(stage, full))
+        }
+      }
+    }
+  }
+  scan(path.join(stage, 'dist'))
+  scan(path.join(stage, 'node_modules', '@i18n-codemod'))
+  if (missing.size) {
+    const lines = [...missing].map(([name, files]) => `  ${name}  ← ${[...files].slice(0, 3).join(', ')}`)
+    throw new Error(`runtime imports missing from the package:\n${lines.join('\n')}`)
+  }
+}
+auditRuntimeImports()
+
+
 /* --- package ---
  * vsce refuses to spawn npm in this sandbox once a package has dependencies, so we let it
  * produce the manifest from a dependency-free pass and then re-zip the archive ourselves
  * with the vendored node_modules included. A .vsix is a zip; nothing magical happens in
  * between, and doing it here keeps the build reproducible without a bundler.
  */
-const out = path.join(pkgRoot, 'i18n-codemod-0.1.0.vsix')
+const out = path.join(pkgRoot, `i18n-codemod-${manifest.version}.vsix`)
 const baseVsix = path.join(stage, '..', '.base.vsix')
 for (const f of [out, baseVsix]) if (fs.existsSync(f)) fs.unlinkSync(f)
 

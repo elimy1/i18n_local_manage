@@ -2,10 +2,9 @@
   "name": "i18n-codemod",
   "displayName": "i18n Codemod",
   "description": "Extract hard-coded strings into i18n catalogs — with coverage you can put in CI.",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "publisher": "i18n-codemod",
   "license": "MIT",
-  "type": "module",
   "engines": {
     "vscode": "^1.94.0"
   },

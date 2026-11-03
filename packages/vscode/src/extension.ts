@@ -1,4 +1,5 @@
 import * as vscode from 'vscode'
+import fs from 'node:fs'
 import path from 'node:path'
 import {
   KeyRegistry,
@@ -390,6 +391,27 @@ export function activate(context: vscode.ExtensionContext): void {
 
   context.subscriptions.push(log, status)
   log.appendLine('i18n Codemod activated')
+  recordActivation(context)
+}
+
+/**
+ * Leave a trail when activation finishes.
+ *
+ * A user reporting "the command does nothing" gives us one screenshot; `exthost.log` is
+ * empty on their machine and console output from extensions does not reach it. A line in
+ * `context.logUri` is the one piece of evidence that survives, and it also proves that
+ * `activate()` ran to the end rather than dying halfway through command registration.
+ */
+function recordActivation(context: vscode.ExtensionContext): void {
+  try {
+    const version = String(context.extension?.packageJSON?.version ?? '0.0.0')
+    const dir = context.logUri?.fsPath
+    if (!dir) return
+    fs.mkdirSync(dir, { recursive: true })
+    fs.appendFileSync(path.join(dir, 'activation.log'), `${new Date().toISOString()} v${version} node ${process.versions.node}\n`)
+  } catch {
+    /* recording must never break activation */
+  }
 }
 
 export function deactivate(): void {

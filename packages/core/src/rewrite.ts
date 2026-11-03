@@ -1,7 +1,6 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { parse as parseSfc } from '@vue/compiler-sfc'
-import ts from 'typescript'
 import { parseJs, walk } from './parse.js'
 import { detectBom, detectCrlf, readSource, TEST_FILE_RE, writeJson, ensureDir } from './fsx.js'
 import { KeyRegistry } from './keys.js'
@@ -439,43 +438,37 @@ function spliceImports(source: string, file: string, plan: FilePlan, aliases: Re
 }
 
 /* ---------------- syntax gates ---------------- */
-function checkTs(source: string, file: string): string | null {
-  const out = ts.transpileModule(source, {
-    fileName: file,
-    reportDiagnostics: true,
-    compilerOptions: {
-      jsx: ts.JsxEmit.Preserve,
-      target: ts.ScriptTarget.ESNext,
-      module: ts.ModuleKind.ESNext,
-      isolatedModules: true,
-    },
-  })
-  const errs = (out.diagnostics ?? []).filter((d) => d.category === ts.DiagnosticCategory.Error)
-  if (!errs.length) return null
-  return ts.flattenDiagnosticMessageText(errs[0]!.messageText, ' ')
-}
-
-export function syntaxCheck(source: string, file: string): string | null {
+/**
+ * Syntax gate. Deliberately babel-only: `typescript` is a build-time dependency, and an
+ * extension that imports it at runtime ships ~10 MB it cannot resolve from a vsix.
+ * `strict` turns off error recovery so a mangled rewrite throws instead of being
+ * "recovered" into something that parses.
+ */
+function checkScript(source: string, file: string): string | null {
   try {
-    if (file.endsWith('.vue')) {
-      const { errors } = parseSfc(source, { filename: file })
-      if (errors.length) return `sfc:${errors[0]!.message}`
-      const m = /<script[^>]*>([\s\S]*?)<\/script>/.exec(source)
-      if (m && m[1]) {
-        const err = checkTs(m[1], 'blk.ts')
-        if (err) return `script:${err}`
-      }
-      return null
-    }
-    if (/\.tsx?$/.test(file)) {
-      const err = checkTs(source, file)
-      if (err) return `ts:${err}`
-    }
-    parseJs(source, { typescript: /\.tsx?$/.test(file), jsx: /x$/.test(file) })
+    parseJs(source, { typescript: /\.tsx?$/.test(file), jsx: /x$/.test(file), strict: true })
     return null
   } catch (e) {
     return String((e as Error).message || e).slice(0, 160)
   }
+}
+
+export function syntaxCheck(source: string, file: string): string | null {
+  if (file.endsWith('.vue')) {
+    const { errors } = parseSfc(source, { filename: file })
+    if (errors.length) return `sfc:${errors[0]!.message}`
+    const re = /<script[^>]*>([\s\S]*?)<\/script>/g
+    let m: RegExpExecArray | null
+    while ((m = re.exec(source))) {
+      if (!m[1]) continue
+      const err = checkScript(m[1], 'blk.ts')
+      if (err) return `script:${err}`
+    }
+    return null
+  }
+  const err = checkScript(source, file)
+  if (err) return `${/\.tsx?$/.test(file) ? 'ts' : 'js'}:${err}`
+  return null
 }
 
 export interface ApplyOutcome {

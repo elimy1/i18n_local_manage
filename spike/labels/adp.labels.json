@@ -1,0 +1,16 @@
+{
+  "dataset": "ant-design-pro",
+  "labeled": 92,
+  "method": "stratified random sample of the candidate pool, hand-labeled by the author",
+  "positive": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 31, 33, 34, 35, 36, 38, 39, 40, 41, 42, 43, 44, 45, 46, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 73, 74, 75, 76, 79, 80, 81, 82],
+  "notes": [
+    "#29 '12%' and #30 '%' are rendered units/numbers => negative",
+    "#32 '提交' sits in basic-form/index.test.tsx => negative (tests must be excluded by default)",
+    "#47 'error' is an enum/status string used as .message => negative",
+    "#58 .content \"' '\" is a style delimiter => negative",
+    "#72 e2e assertion text, #77-78/#83-84 test names => negative",
+    "#43/#79 'Ant Design Pro' and #24-25 'Umi'/'Ant Design' are brand labels in UI => counted positive",
+    "#74-75 ErrorBoundary fallback copy is user-visible => positive",
+    "#85-92 template literals are regexes, CSS-in-JS blocks, selectors and id suffixes => negative"
+  ]
+}

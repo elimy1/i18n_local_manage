@@ -1,0 +1,1305 @@
+{
+  "source": "out/chat.json",
+  "root": "..\\corpus\\ai-chatbot",
+  "sampleSize": 76,
+  "poolSize": 690,
+  "items": [
+    {
+      "id": 1,
+      "key": "components/ai-elements/code-block.tsx#6579",
+      "file": "components/ai-elements/code-block.tsx",
+      "line": 232,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Failed to highlight code:"
+          }
+        ]
+      },
+      "value": "Failed to highlight code:",
+      "score": 0.2,
+      "accepted": false
+    },
+    {
+      "id": 2,
+      "key": "components/chat/document.tsx#3055",
+      "file": "components/chat/document.tsx",
+      "line": 111,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "toast.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Viewing files in shared chats is currently not supported."
+          }
+        ]
+      },
+      "value": "Viewing files in shared chats is currently not supported.",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 3,
+      "key": "components/chat/multimodal-input.tsx#6165",
+      "file": "components/chat/multimodal-input.tsx",
+      "line": 217,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "toast.success",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "All chats deleted"
+          }
+        ]
+      },
+      "value": "All chats deleted",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 4,
+      "key": "components/chat/multimodal-input.tsx#8664",
+      "file": "components/chat/multimodal-input.tsx",
+      "line": 318,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "toast.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Failed to upload files"
+          }
+        ]
+      },
+      "value": "Failed to upload files",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 5,
+      "key": "components/chat/multimodal-input.tsx#9949",
+      "file": "components/chat/multimodal-input.tsx",
+      "line": 364,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "toast.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Failed to upload pasted image(s)"
+          }
+        ]
+      },
+      "value": "Failed to upload pasted image(s)",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 6,
+      "key": "lib/db/migrate.ts#309",
+      "file": "lib/db/migrate.ts",
+      "line": 12,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "POSTGRES_URL not defined, skipping migrations"
+          }
+        ]
+      },
+      "value": "POSTGRES_URL not defined, skipping migrations",
+      "score": 0.2,
+      "accepted": false
+    },
+    {
+      "id": 7,
+      "key": "components/ai-elements/message.tsx#6476",
+      "file": "components/ai-elements/message.tsx",
+      "line": 264,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "aria-label",
+        "attrKind": "static"
+      },
+      "value": "Previous branch",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 8,
+      "key": "components/ai-elements/prompt-input.tsx#22691",
+      "file": "components/ai-elements/prompt-input.tsx",
+      "line": 788,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "aria-label",
+        "attrKind": "static"
+      },
+      "value": "Upload files",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 9,
+      "key": "components/chat/auth-form.tsx#1378",
+      "file": "components/chat/auth-form.tsx",
+      "line": 44,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "placeholder",
+        "attrKind": "static"
+      },
+      "value": "••••••••",
+      "score": 0.55,
+      "accepted": true
+    },
+    {
+      "id": 10,
+      "key": "components/chat/visibility-selector.tsx#1641",
+      "file": "components/chat/visibility-selector.tsx",
+      "line": 69,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "data-testid",
+        "attrKind": "expr",
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "text",
+            "value": "visibility-selector-item-"
+          },
+          {
+            "type": "expr",
+            "code": "visibility.id"
+          }
+        ]
+      },
+      "value": "visibility-selector-item-${visibility.id}",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 11,
+      "key": "components/ui/sidebar.tsx#9045",
+      "file": "components/ui/sidebar.tsx",
+      "line": 297,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "aria-label",
+        "attrKind": "static"
+      },
+      "value": "Toggle Sidebar",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 12,
+      "key": "components/ui/spinner.tsx#208",
+      "file": "components/ui/spinner.tsx",
+      "line": 6,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "aria-label",
+        "attrKind": "static"
+      },
+      "value": "Loading",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 13,
+      "key": "app/(auth)/login/page.tsx#2042",
+      "file": "app/(auth)/login/page.tsx",
+      "line": 59,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n            Sign up\n          "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Sign up",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 14,
+      "key": "app/(auth)/register/page.tsx#1751",
+      "file": "app/(auth)/register/page.tsx",
+      "line": 50,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Create account"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Create account",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 15,
+      "key": "components/chat/auth-form.tsx#1112",
+      "file": "components/chat/auth-form.tsx",
+      "line": 37,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n          Password\n        "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Password",
+      "score": 0.15,
+      "accepted": false
+    },
+    {
+      "id": 16,
+      "key": "components/chat/message.tsx#2462",
+      "file": "components/chat/message.tsx",
+      "line": 77,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n        Allow\n      "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Allow",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 17,
+      "key": "components/chat/preview.tsx#1566",
+      "file": "components/chat/preview.tsx",
+      "line": 51,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Chatbot"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Chatbot",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 18,
+      "key": "components/chat/sidebar-history.tsx#8252",
+      "file": "components/chat/sidebar-history.tsx",
+      "line": 261,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n                            Yesterday\n                          "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Yesterday",
+      "score": 0.15,
+      "accepted": false
+    },
+    {
+      "id": 19,
+      "key": "components/chat/sidebar-history.tsx#11980",
+      "file": "components/chat/sidebar-history.tsx",
+      "line": 348,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Are you absolutely sure?"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Are you absolutely sure?",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 20,
+      "key": "components/chat/version-footer.tsx#5677",
+      "file": "components/chat/version-footer.tsx",
+      "line": 163,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n          Latest\n        "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Latest",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 21,
+      "key": "components/chat/weather.tsx#10261",
+      "file": "components/chat/weather.tsx",
+      "line": 375,
+      "kind": "jsx-sentence",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "L: "
+          },
+          {
+            "type": "expr",
+            "code": "n(currentLow)"
+          },
+          {
+            "type": "text",
+            "value": "°"
+          }
+        ],
+        "exprCount": 1
+      },
+      "value": "L: °",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 22,
+      "key": "components/ui/sidebar.tsx#5083",
+      "file": "components/ui/sidebar.tsx",
+      "line": 187,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Sidebar"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Sidebar",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 23,
+      "key": "app/(chat)/api/files/upload/route.ts#290",
+      "file": "app/(chat)/api/files/upload/route.ts",
+      "line": 11,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "File size should be less than 5MB"
+          }
+        ]
+      },
+      "value": "File size should be less than 5MB",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 24,
+      "key": "app/(chat)/api/files/upload/route.ts#617",
+      "file": "app/(chat)/api/files/upload/route.ts",
+      "line": 22,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "error",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Unauthorized"
+          }
+        ]
+      },
+      "value": "Unauthorized",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 25,
+      "key": "app/(chat)/api/messages/route.ts#364",
+      "file": "app/(chat)/api/messages/route.ts",
+      "line": 10,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "error",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "chatId required"
+          }
+        ]
+      },
+      "value": "chatId required",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 26,
+      "key": "app/layout.tsx#349",
+      "file": "app/layout.tsx",
+      "line": 10,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Next.js chatbot template using the AI SDK."
+          }
+        ]
+      },
+      "value": "Next.js chatbot template using the AI SDK.",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 27,
+      "key": "artifacts/code/client.tsx#5893",
+      "file": "artifacts/code/client.tsx",
+      "line": 207,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "View Previous version"
+          }
+        ]
+      },
+      "value": "View Previous version",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 28,
+      "key": "artifacts/text/client.tsx#4275",
+      "file": "artifacts/text/client.tsx",
+      "line": 152,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Add final polish"
+          }
+        ]
+      },
+      "value": "Add final polish",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 29,
+      "key": "components/chat/visibility-selector.tsx#734",
+      "file": "components/chat/visibility-selector.tsx",
+      "line": 36,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Only you can access this chat"
+          }
+        ]
+      },
+      "value": "Only you can access this chat",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 30,
+      "key": "lib/ai/models.ts#1245",
+      "file": "lib/ai/models.ts",
+      "line": 50,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Open-source 120B parameter model"
+          }
+        ]
+      },
+      "value": "Open-source 120B parameter model",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 31,
+      "key": "lib/ai/models.ts#1468",
+      "file": "lib/ai/models.ts",
+      "line": 58,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Fast non-reasoning model with tool use"
+          }
+        ]
+      },
+      "value": "Fast non-reasoning model with tool use",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 32,
+      "key": "lib/ai/tools/edit-document.ts#1005",
+      "file": "lib/ai/tools/edit-document.ts",
+      "line": 28,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "error",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Document has no content"
+          }
+        ]
+      },
+      "value": "Document has no content",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 33,
+      "key": "lib/ai/tools/update-document.ts#997",
+      "file": "lib/ai/tools/update-document.ts",
+      "line": 32,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "error",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Forbidden"
+          }
+        ]
+      },
+      "value": "Forbidden",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 34,
+      "key": "app/(chat)/api/document/route.ts#2893",
+      "file": "app/(chat)/api/document/route.ts",
+      "line": 118,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Parameter id is required.",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 35,
+      "key": "components/ai-elements/code-block.tsx#7781",
+      "file": "components/ai-elements/code-block.tsx",
+      "line": 286,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "font-mono text-sm",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 36,
+      "key": "components/ai-elements/code-block.tsx#9045",
+      "file": "components/ai-elements/code-block.tsx",
+      "line": 337,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex items-center justify-between border-b bg-muted/80 px-3 py-2 text-muted-foreground text-xs",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 37,
+      "key": "components/ai-elements/code-block.tsx#9357",
+      "file": "components/ai-elements/code-block.tsx",
+      "line": 351,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex items-center gap-2",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 38,
+      "key": "components/ai-elements/prompt-input.tsx#27567",
+      "file": "components/ai-elements/prompt-input.tsx",
+      "line": 976,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "justify-between gap-1",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 39,
+      "key": "components/ai-elements/prompt-input.tsx#32262",
+      "file": "components/ai-elements/prompt-input.tsx",
+      "line": 1159,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "border-none bg-transparent font-medium text-muted-foreground shadow-none transition-colors",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 40,
+      "key": "components/ai-elements/reasoning.tsx#5035",
+      "file": "components/ai-elements/reasoning.tsx",
+      "line": 179,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex w-full items-center gap-2 text-muted-foreground text-[13px] leading-[1.65] transition-colors hover:text-foreground",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 41,
+      "key": "components/chat/artifact-actions.tsx#2558",
+      "file": "components/chat/artifact-actions.tsx",
+      "line": 92,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Artifact definition not found!",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 42,
+      "key": "components/chat/artifact-actions.tsx#3364",
+      "file": "components/chat/artifact-actions.tsx",
+      "line": 120,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "View changes",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 43,
+      "key": "components/chat/console.tsx#3136",
+      "file": "components/chat/console.tsx",
+      "line": 113,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "fixed bottom-0 z-40 flex w-full flex-col overflow-x-hidden overflow-y-auto border-t border-border/50 bg-background",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 44,
+      "key": "components/chat/diffview.tsx#2904",
+      "file": "components/chat/diffview.tsx",
+      "line": 92,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "[class*='bg-emerald'], [class*='bg-red']",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 45,
+      "key": "components/chat/multimodal-input.tsx#16270",
+      "file": "components/chat/multimodal-input.tsx",
+      "line": 566,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "bg-foreground text-background hover:opacity-85 active:scale-95",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 46,
+      "key": "components/chat/multimodal-input.tsx#21074",
+      "file": "components/chat/multimodal-input.tsx",
+      "line": 734,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex w-full transition-colors",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 47,
+      "key": "components/chat/sheet-editor.tsx#1744",
+      "file": "components/chat/sheet-editor.tsx",
+      "line": 59,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "border-t dark:bg-neutral-950 dark:text-neutral-50",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 48,
+      "key": "components/chat/weather.tsx#9290",
+      "file": "components/chat/weather.tsx",
+      "line": 349,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "format",
+        "wrapped": false
+      },
+      "value": "MMM d, h:mm a",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 49,
+      "key": "components/chat/weather.tsx#10867",
+      "file": "components/chat/weather.tsx",
+      "line": 392,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cx",
+        "wrapped": false
+      },
+      "value": "flex min-w-0 flex-1 flex-col items-center gap-1 rounded-md px-1 py-1.5",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 50,
+      "key": "components/ui/button-group.tsx#1663",
+      "file": "components/ui/button-group.tsx",
+      "line": 52,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex items-center gap-2 rounded-4xl border bg-muted px-2.5 text-sm font-medium [&_svg]:pointer-events-none [&_svg:not([class*='size-'])]:size-4",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 51,
+      "key": "components/ui/dropdown-menu.tsx#1212",
+      "file": "components/ui/dropdown-menu.tsx",
+      "line": 46,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "z-50 max-h-(--radix-dropdown-menu-content-available-height) w-(--radix-dropdown-menu-trigger-width) min-w-48 origin-(--radix-dropdown-menu-content-transform-origin) overflow-x-hidden overflow-y-auto rounded-lg bg-popover p-1 text-popover-foreground shadow-2xl ring-1 ring-foreground/5 duration-100 data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 data-[state=closed]:overflow-hidden dark:ring-foreground/10 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95 data-closed:animate-out data-closed:fade-out-0 data-closed:zoom-out-95",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 52,
+      "key": "components/ui/select.tsx#2550",
+      "file": "components/ui/select.tsx",
+      "line": 72,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "relative z-50 max-h-(--radix-select-content-available-height) min-w-36 origin-(--radix-select-content-transform-origin) overflow-x-hidden overflow-y-auto rounded-2xl bg-popover text-popover-foreground shadow-2xl ring-1 ring-foreground/5 duration-100 data-[align-trigger=true]:animate-none data-[side=bottom]:slide-in-from-top-2 data-[side=left]:slide-in-from-right-2 data-[side=right]:slide-in-from-left-2 data-[side=top]:slide-in-from-bottom-2 data-open:animate-in data-open:fade-in-0 data-open:zoom-in-95 data-closed:animate-out data-closed:fade-out-0 data-closed:zoom-out-95",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 53,
+      "key": "components/ui/select.tsx#3522",
+      "file": "components/ui/select.tsx",
+      "line": 81,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "data-[position=popper]:h-(--radix-select-trigger-height) data-[position=popper]:w-full data-[position=popper]:min-w-(--radix-select-trigger-width)",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 54,
+      "key": "components/ui/select.tsx#5507",
+      "file": "components/ui/select.tsx",
+      "line": 138,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "pointer-events-none -mx-1 my-1 h-px bg-border/50",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 55,
+      "key": "components/ui/select.tsx#5873",
+      "file": "components/ui/select.tsx",
+      "line": 154,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "z-10 flex cursor-default items-center justify-center bg-popover py-1 [&_svg:not([class*='size-'])]:size-4",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 56,
+      "key": "components/ui/sheet.tsx#4562",
+      "file": "components/ui/sheet.tsx",
+      "line": 129,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "text-sm text-muted-foreground",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 57,
+      "key": "components/ui/sidebar.tsx#4343",
+      "file": "components/ui/sidebar.tsx",
+      "line": 164,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "flex h-full w-(--sidebar-width) flex-col bg-sidebar text-sidebar-foreground",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 58,
+      "key": "components/ui/sidebar.tsx#5802",
+      "file": "components/ui/sidebar.tsx",
+      "line": 209,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "relative w-(--sidebar-width) bg-transparent transition-[width] duration-300 ease-[cubic-bezier(0.22,1,0.36,1)]",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 59,
+      "key": "components/ui/sidebar.tsx#9153",
+      "file": "components/ui/sidebar.tsx",
+      "line": 301,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "absolute left-3 h-[6px] w-[100vw] cursor-e-resize",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 60,
+      "key": "components/ui/sidebar.tsx#13444",
+      "file": "components/ui/sidebar.tsx",
+      "line": 452,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "w-full text-sm",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 61,
+      "key": "components/ui/sidebar.tsx#16773",
+      "file": "components/ui/sidebar.tsx",
+      "line": 568,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "cn",
+        "wrapped": false
+      },
+      "value": "absolute top-1.5 right-1 flex aspect-square w-5 items-center justify-center rounded-md p-0 text-sidebar-foreground/40 outline-hidden transition-colors duration-150 group-data-[collapsible=icon]:hidden peer-hover/menu-button:text-sidebar-foreground/60 peer-data-[size=default]/menu-button:top-1.5 peer-data-[size=lg]/menu-button:top-2.5 peer-data-[size=sm]/menu-button:top-1 after:absolute after:-inset-2 hover:bg-sidebar-accent hover:text-sidebar-accent-foreground md:after:hidden [&>svg]:size-4 [&>svg]:shrink-0",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 62,
+      "key": "lib/ai/tools/edit-document.ts#2733",
+      "file": "lib/ai/tools/edit-document.ts",
+      "line": 91,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "describe",
+        "wrapped": false
+      },
+      "value": "Exact string to find. Include 3-5 surrounding lines for uniqueness.",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 63,
+      "key": "lib/constants.ts#551",
+      "file": "lib/constants.ts",
+      "line": 17,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Write code to demonstrate Dijkstra's algorithm",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 64,
+      "key": "lib/editor/diff.js#13248",
+      "file": "lib/editor/diff.js",
+      "line": 456,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "type is not valid",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 65,
+      "key": "tests/e2e/auth.test.ts#66",
+      "file": "tests/e2e/auth.test.ts",
+      "line": 3,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "test.describe",
+        "wrapped": false
+      },
+      "value": "Authentication Pages",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 66,
+      "key": "tests/e2e/auth.test.ts#1078",
+      "file": "tests/e2e/auth.test.ts",
+      "line": 26,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "test",
+        "wrapped": false
+      },
+      "value": "can navigate from login to register",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 67,
+      "key": "tests/e2e/chat.test.ts#427",
+      "file": "tests/e2e/chat.test.ts",
+      "line": 12,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "input.fill",
+        "wrapped": false
+      },
+      "value": "Hello world",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 68,
+      "key": "tests/e2e/model-selector.test.ts#1177",
+      "file": "tests/e2e/model-selector.test.ts",
+      "line": 36,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "page.getByPlaceholder",
+        "wrapped": false
+      },
+      "value": "Search models...",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 69,
+      "key": "components/chat/message-actions.tsx#1708",
+      "file": "components/chat/message-actions.tsx",
+      "line": 64,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "mutate",
+        "wrapped": false
+      },
+      "value": "${}/api/vote?chatId=${}",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 70,
+      "key": "components/chat/version-footer.tsx#1834",
+      "file": "components/chat/version-footer.tsx",
+      "line": 61,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "fetch",
+        "wrapped": false
+      },
+      "value": "${}/api/document?id=${}&timestamp=${}",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 71,
+      "key": "components/ui/sidebar.tsx#18486",
+      "file": "components/ui/sidebar.tsx",
+      "line": 603,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "${}%",
+      "score": 0.3,
+      "accepted": false
+    },
+    {
+      "id": 72,
+      "key": "lib/ai/models.ts#1872",
+      "file": "lib/ai/models.ts",
+      "line": 73,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "fetch",
+        "wrapped": false
+      },
+      "value": "https://ai-gateway.vercel.sh/v1/models/${}/endpoints",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 73,
+      "key": "lib/ai/prompts.ts#3282",
+      "file": "lib/ai/prompts.ts",
+      "line": 79,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "${}\n\n${}\n\n${}",
+      "score": 0.3,
+      "accepted": false
+    },
+    {
+      "id": 74,
+      "key": "lib/ai/tools/get-weather.ts#1057",
+      "file": "lib/ai/tools/get-weather.ts",
+      "line": 43,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "error",
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Could not find coordinates for \""
+          },
+          {
+            "type": "expr",
+            "code": "input.city"
+          },
+          {
+            "type": "text",
+            "value": "\". Please check the city name."
+          }
+        ]
+      },
+      "value": "Could not find coordinates for \"${input.city}\". Please check the city name.",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 75,
+      "key": "lib/editor/diff.js#9139",
+      "file": "lib/editor/diff.js",
+      "line": 307,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "node type not equal: ${} !== ${}",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 76,
+      "key": "proxy.ts#1061",
+      "file": "proxy.ts",
+      "line": 35,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "${}/",
+      "score": 0.3,
+      "accepted": false
+    }
+  ]
+}

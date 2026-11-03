@@ -1,0 +1,34 @@
+{
+  "name": "@i18n-codemod/core",
+  "version": "0.1.0",
+  "description": "Framework-agnostic engine: scan, detect, keygen, rewrite, catalog, coverage.",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "tsc -p tsconfig.test.json && node test/run.mjs"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.29.12",
+    "@babel/types": "^7.29.11",
+    "@vue/compiler-core": "^3.5.44",
+    "@vue/compiler-sfc": "^3.5.44",
+    "jsonc-parser": "^3.3.1",
+    "pinyin-pro": "^3.29.5",
+    "yaml": "^2.9.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

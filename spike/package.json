@@ -1,0 +1,24 @@
+{
+  "name": "@i18n-spike/core",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "description": "M0 Spike: measurable verification of hardcoded-string detection, codemod safety, and scan performance",
+  "scripts": {
+    "scan": "node src/scan.mjs",
+    "label": "node src/label.mjs",
+    "eval": "node src/eval.mjs",
+    "codemod": "node src/codemod.mjs",
+    "bench": "node src/bench.mjs",
+    "test": "node --test test/"
+  },
+  "dependencies": {
+    "@babel/generator": "^7.26.0",
+    "@babel/parser": "^7.26.0",
+    "@babel/traverse": "^7.26.0",
+    "@babel/types": "^7.26.0",
+    "@vue/compiler-sfc": "^3.5.13",
+    "pinyin-pro": "^3.29.5",
+    "typescript": "^5.7.0"
+  }
+}

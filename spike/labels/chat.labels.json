@@ -1,0 +1,17 @@
+{
+  "dataset": "vercel/ai-chatbot",
+  "labeled": 76,
+  "method": "stratified random sample of the candidate pool, hand-labeled by the author",
+  "positive": [2, 3, 4, 5, 7, 8, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 26, 27, 28, 29, 30, 31, 32, 41, 42, 62, 63, 74],
+  "notes": [
+    "#1/#6 console.* developer logs => negative",
+    "#24-25, #32-34 API error payloads ('Unauthorized', 'chatId required', 'Parameter id is required.') are dev/protocol errors => negative",
+    "#10 data-testid with interpolation, #44 selector, #48 date format => negative",
+    "#35-40, #43, #45-47, #49-61 are Tailwind class strings passed to cn()/cx() => negative (the dominant FP source in TSX)",
+    "#21 'L: °' is an icon-ish glyph fragment => negative",
+    "#64-68 dev error + e2e test names/selectors => negative",
+    "#69-73, #75-76 URLs, '%' formatter, prompt scaffold => negative",
+    "#62-63 are user-visible tool descriptions / example prompts => positive",
+    "#74 error message with interpolation shown to the user => positive (template-literal path)"
+  ]
+}

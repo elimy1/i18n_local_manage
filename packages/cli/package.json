@@ -1,0 +1,25 @@
+{
+  "name": "@i18n-codemod/cli",
+  "version": "0.1.0",
+  "description": "Command line for i18n-codemod: scan, apply, report.",
+  "type": "module",
+  "bin": {
+    "i18n-codemod": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@i18n-codemod/adapters": "workspace:*",
+    "@i18n-codemod/core": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3"
+  }
+}

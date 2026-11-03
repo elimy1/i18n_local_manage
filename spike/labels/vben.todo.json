@@ -1,0 +1,1691 @@
+{
+  "source": "out/vben.json",
+  "root": "..\\corpus\\vue-vben-admin",
+  "sampleSize": 90,
+  "poolSize": 5723,
+  "items": [
+    {
+      "id": 1,
+      "key": "apps/web-antd/src/views/_core/authentication/register.vue#2187",
+      "file": "apps/web-antd/src/views/_core/authentication/register.vue",
+      "line": 73,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.terms"
+          }
+        ]
+      },
+      "value": "authentication.terms",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 2,
+      "key": "apps/web-antd/src/views/_core/authentication/register.vue#2327",
+      "file": "apps/web-antd/src/views/_core/authentication/register.vue",
+      "line": 78,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.agreeTip"
+          }
+        ]
+      },
+      "value": "authentication.agreeTip",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 3,
+      "key": "apps/web-antdv-next/src/router/routes/modules/vben.ts#1557",
+      "file": "apps/web-antdv-next/src/router/routes/modules/vben.ts",
+      "line": 67,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "demos.vben.naive-ui"
+          }
+        ]
+      },
+      "value": "demos.vben.naive-ui",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 4,
+      "key": "apps/web-antdv-next/src/views/_core/authentication/register.vue#483",
+      "file": "apps/web-antdv-next/src/views/_core/authentication/register.vue",
+      "line": 19,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.usernameTip"
+          }
+        ]
+      },
+      "value": "authentication.usernameTip",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 5,
+      "key": "apps/web-naive/src/views/_core/authentication/login.vue#769",
+      "file": "apps/web-naive/src/views/_core/authentication/login.vue",
+      "line": 37,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.selectAccount"
+          }
+        ]
+      },
+      "value": "authentication.selectAccount",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 6,
+      "key": "apps/web-tdesign/src/views/_core/authentication/register.vue#2147",
+      "file": "apps/web-tdesign/src/views/_core/authentication/register.vue",
+      "line": 73,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.privacyPolicy"
+          }
+        ]
+      },
+      "value": "authentication.privacyPolicy",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 7,
+      "key": "packages/effects/layouts/src/widgets/layout-toggle.vue#827",
+      "file": "packages/effects/layouts/src/widgets/layout-toggle.vue",
+      "line": 35,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "authentication.layout.alignRight"
+          }
+        ]
+      },
+      "value": "authentication.layout.alignRight",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 8,
+      "key": "packages/effects/layouts/src/widgets/preferences/blocks/layout/breadcrumb.vue#808",
+      "file": "packages/effects/layouts/src/widgets/preferences/blocks/layout/breadcrumb.vue",
+      "line": 29,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "preferences.normal"
+          }
+        ]
+      },
+      "value": "preferences.normal",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 9,
+      "key": "packages/effects/layouts/src/widgets/preferences/blocks/theme/theme.vue#1371",
+      "file": "packages/effects/layouts/src/widgets/preferences/blocks/theme/theme.vue",
+      "line": 59,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "preferences.theme.dark"
+          }
+        ]
+      },
+      "value": "preferences.theme.dark",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 10,
+      "key": "packages/effects/plugins/src/vxe-table/use-vxe-grid.vue#4427",
+      "file": "packages/effects/plugins/src/vxe-table/use-vxe-grid.vue",
+      "line": 174,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "common.hideSearchPanel"
+          }
+        ]
+      },
+      "value": "common.hideSearchPanel",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 11,
+      "key": "playground/src/adapter/component/index.ts#20651",
+      "file": "playground/src/adapter/component/index.ts",
+      "line": 749,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "ui.tiptap.upload.uploadFailed"
+          }
+        ]
+      },
+      "value": "ui.tiptap.upload.uploadFailed",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 12,
+      "key": "playground/src/views/system/menu/modules/form.vue#6530",
+      "file": "playground/src/views/system/menu/modules/form.vue",
+      "line": 240,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "system.menu.activeIcon"
+          }
+        ]
+      },
+      "value": "system.menu.activeIcon",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 13,
+      "key": "playground/src/views/system/role/data.ts#1299",
+      "file": "playground/src/views/system/role/data.ts",
+      "line": 51,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "system.role.id"
+          }
+        ]
+      },
+      "value": "system.role.id",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 14,
+      "key": "playground/src/views/system/role/data.ts#2538",
+      "file": "playground/src/views/system/role/data.ts",
+      "line": 104,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "system.role.remark"
+          }
+        ]
+      },
+      "value": "system.role.remark",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 15,
+      "key": "playground/src/views/system/user/data.ts#4507",
+      "file": "playground/src/views/system/user/data.ts",
+      "line": 185,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "$t",
+        "wrapped": true,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "system.user.status"
+          }
+        ]
+      },
+      "value": "system.user.status",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 16,
+      "key": "scripts/vsh/src/check-circular/index.ts#4312",
+      "file": "scripts/vsh/src/check-circular/index.ts",
+      "line": 183,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "❌ Error checking circular dependencies:"
+          }
+        ]
+      },
+      "value": "❌ Error checking circular dependencies:",
+      "score": 0.2,
+      "accepted": false
+    },
+    {
+      "id": 17,
+      "key": "scripts/vsh/src/check-dep/index.ts#1804",
+      "file": "scripts/vsh/src/check-dep/index.ts",
+      "line": 77,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "⚠️ Unused devDependencies:"
+          }
+        ]
+      },
+      "value": "⚠️ Unused devDependencies:",
+      "score": 0.2,
+      "accepted": false
+    },
+    {
+      "id": 18,
+      "key": "apps/backend-mock/utils/dict-utils.ts#1681",
+      "file": "apps/backend-mock/utils/dict-utils.ts",
+      "line": 102,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "启用"
+          }
+        ]
+      },
+      "value": "启用",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 19,
+      "key": "apps/backend-mock/utils/mock-data.ts#7789",
+      "file": "apps/backend-mock/utils/mock-data.ts",
+      "line": 336,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "common.delete"
+          }
+        ]
+      },
+      "value": "common.delete",
+      "score": 0.55,
+      "accepted": true
+    },
+    {
+      "id": 20,
+      "key": "apps/web-antdv-next/src/views/dashboard/workspace/index.vue#1486",
+      "file": "apps/web-antdv-next/src/views/dashboard/workspace/index.vue",
+      "line": 65,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Angular"
+          }
+        ]
+      },
+      "value": "Angular",
+      "score": 0.05,
+      "accepted": false
+    },
+    {
+      "id": 21,
+      "key": "apps/web-ele/src/views/_core/profile/index.vue#589",
+      "file": "apps/web-ele/src/views/_core/profile/index.vue",
+      "line": 26,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "修改密码"
+          }
+        ]
+      },
+      "value": "修改密码",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 22,
+      "key": "apps/web-ele/src/views/_core/profile/index.vue#640",
+      "file": "apps/web-ele/src/views/_core/profile/index.vue",
+      "line": 30,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "新消息提醒"
+          }
+        ]
+      },
+      "value": "新消息提醒",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 23,
+      "key": "apps/web-ele/src/views/_core/profile/password-setting.vue#1029",
+      "file": "apps/web-ele/src/views/_core/profile/password-setting.vue",
+      "line": 42,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "请再次输入新密码"
+          }
+        ]
+      },
+      "value": "请再次输入新密码",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 24,
+      "key": "apps/web-ele/src/views/dashboard/workspace/index.vue#809",
+      "file": "apps/web-ele/src/views/dashboard/workspace/index.vue",
+      "line": 34,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "content",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "不要等待机会，而要创造机会。"
+          }
+        ]
+      },
+      "value": "不要等待机会，而要创造机会。",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 25,
+      "key": "apps/web-naive/src/views/dashboard/workspace/index.vue#3559",
+      "file": "apps/web-naive/src/views/dashboard/workspace/index.vue",
+      "line": 165,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "威廉"
+          }
+        ]
+      },
+      "value": "威廉",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 26,
+      "key": "apps/web-tdesign/src/layouts/basic.vue#1320",
+      "file": "apps/web-tdesign/src/layouts/basic.vue",
+      "line": 48,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "曲丽丽 评论了你"
+          }
+        ]
+      },
+      "value": "曲丽丽 评论了你",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 27,
+      "key": "apps/web-tdesign/src/layouts/basic.vue#1448",
+      "file": "apps/web-tdesign/src/layouts/basic.vue",
+      "line": 55,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "描述信息描述信息描述信息"
+          }
+        ]
+      },
+      "value": "描述信息描述信息描述信息",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 28,
+      "key": "apps/web-tdesign/src/views/_core/profile/base-setting.vue#901",
+      "file": "apps/web-tdesign/src/views/_core/profile/base-setting.vue",
+      "line": 48,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "角色"
+          }
+        ]
+      },
+      "value": "角色",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 29,
+      "key": "apps/web-tdesign/src/views/dashboard/workspace/index.vue#1091",
+      "file": "apps/web-tdesign/src/views/dashboard/workspace/index.vue",
+      "line": 47,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Vue"
+          }
+        ]
+      },
+      "value": "Vue",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 30,
+      "key": "docs/src/demos/vben-descriptions/basic/index.vue#144",
+      "file": "docs/src/demos/vben-descriptions/basic/index.vue",
+      "line": 6,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "content",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "13800138000"
+          }
+        ]
+      },
+      "value": "13800138000",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 31,
+      "key": "docs/src/demos/vben-table-action/dropdown/index.vue#638",
+      "file": "docs/src/demos/vben-table-action/dropdown/index.vue",
+      "line": 25,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "确定移除吗？"
+          }
+        ]
+      },
+      "value": "确定移除吗？",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 32,
+      "key": "docs/src/demos/vben-vxe-table/table-data.ts#2928",
+      "file": "docs/src/demos/vben-vxe-table/table-data.ts",
+      "line": 181,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support"
+          }
+        ]
+      },
+      "value": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 33,
+      "key": "internal/lint-configs/eslint-config/src/configs/javascript.ts#1811",
+      "file": "internal/lint-configs/eslint-config/src/configs/javascript.ts",
+      "line": 63,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Use `Object.getOwnPropertyDescriptor` instead."
+          }
+        ]
+      },
+      "value": "Use `Object.getOwnPropertyDescriptor` instead.",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 34,
+      "key": "packages/effects/layouts/src/widgets/preferences/blocks/input-item.vue#449",
+      "file": "packages/effects/layouts/src/widgets/preferences/blocks/input-item.vue",
+      "line": 23,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "placeholder",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": ""
+          }
+        ]
+      },
+      "value": "",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 35,
+      "key": "packages/stores/src/modules/dict.test.ts#3900",
+      "file": "packages/stores/src/modules/dict.test.ts",
+      "line": 125,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "New"
+          }
+        ]
+      },
+      "value": "New",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 36,
+      "key": "playground/src/views/_core/profile/password-setting.vue#1118",
+      "file": "playground/src/views/_core/profile/password-setting.vue",
+      "line": 44,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "两次输入的密码不一致"
+          }
+        ]
+      },
+      "value": "两次输入的密码不一致",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 37,
+      "key": "playground/src/views/examples/form/api.vue#4910",
+      "file": "playground/src/views/examples/form/api.vue",
+      "line": 215,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "选项1"
+          }
+        ]
+      },
+      "value": "选项1",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 38,
+      "key": "playground/src/views/examples/form/basic.vue#6205",
+      "file": "playground/src/views/examples/form/basic.vue",
+      "line": 266,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "选项2"
+          }
+        ]
+      },
+      "value": "选项2",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 39,
+      "key": "playground/src/views/examples/form/collapsible.vue#7686",
+      "file": "playground/src/views/examples/form/collapsible.vue",
+      "line": 319,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "定期评估"
+          }
+        ]
+      },
+      "value": "定期评估",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 40,
+      "key": "playground/src/views/examples/form/dynamic.vue#2642",
+      "file": "playground/src/views/examples/form/dynamic.vue",
+      "line": 125,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "placeholder",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "请选择"
+          }
+        ]
+      },
+      "value": "请选择",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 41,
+      "key": "playground/src/views/examples/form/rules.vue#3897",
+      "file": "playground/src/views/examples/form/rules.vue",
+      "line": 189,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "help",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "blur时才会触发校验"
+          }
+        ]
+      },
+      "value": "blur时才会触发校验",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 42,
+      "key": "playground/src/views/examples/tippy/index.vue#2710",
+      "file": "playground/src/views/examples/tippy/index.vue",
+      "line": 110,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "左上"
+          }
+        ]
+      },
+      "value": "左上",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 43,
+      "key": "playground/src/views/examples/vxe-table/basic.vue#787",
+      "file": "playground/src/views/examples/vxe-table/basic.vue",
+      "line": 29,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Address"
+          }
+        ]
+      },
+      "value": "Address",
+      "score": 0.05,
+      "accepted": false
+    },
+    {
+      "id": 44,
+      "key": "playground/src/views/examples/vxe-table/form.vue#2419",
+      "file": "playground/src/views/examples/vxe-table/form.vue",
+      "line": 106,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Product Name"
+          }
+        ]
+      },
+      "value": "Product Name",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 45,
+      "key": "playground/src/views/system/dict/data.ts#326",
+      "file": "playground/src/views/system/dict/data.ts",
+      "line": 10,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "success"
+          }
+        ]
+      },
+      "value": "success",
+      "score": 0.05,
+      "accepted": false
+    },
+    {
+      "id": 46,
+      "key": "docs/src/demos/vben-form/rules/index.vue#1056",
+      "file": "docs/src/demos/vben-form/rules/index.vue",
+      "line": 51,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "default",
+        "wrapped": false
+      },
+      "value": "默认值",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 47,
+      "key": "docs/src/demos/vben-table-action/dropdown/index.vue#370",
+      "file": "docs/src/demos/vben-table-action/dropdown/index.vue",
+      "line": 15,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "复制",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 48,
+      "key": "packages/@core/base/shared/src/cache/indexeddb-driver.ts#1103",
+      "file": "packages/@core/base/shared/src/cache/indexeddb-driver.ts",
+      "line": 42,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Transaction aborted",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 49,
+      "key": "packages/@core/base/shared/src/utils/__tests__/date.test.ts#2382",
+      "file": "packages/@core/base/shared/src/utils/__tests__/date.test.ts",
+      "line": 85,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "should return true for Date instances",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 50,
+      "key": "packages/@core/base/shared/src/utils/__tests__/date.test.ts#3633",
+      "file": "packages/@core/base/shared/src/utils/__tests__/date.test.ts",
+      "line": 125,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "should set and retrieve the current timezone",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 51,
+      "key": "packages/@core/base/shared/src/utils/__tests__/inference.test.ts#3193",
+      "file": "packages/@core/base/shared/src/utils/__tests__/inference.test.ts",
+      "line": 121,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "should return false for non-objects",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 52,
+      "key": "packages/@core/base/shared/src/utils/__tests__/state-handler.test.ts#3214",
+      "file": "packages/@core/base/shared/src/utils/__tests__/state-handler.test.ts",
+      "line": 107,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "rejects every waiter registered before the condition turns false",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 53,
+      "key": "packages/@core/ui-kit/form-ui/__tests__/form-api.test.ts#1941",
+      "file": "packages/@core/ui-kit/form-ui/__tests__/form-api.test.ts",
+      "line": 73,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "formApi.setFieldError",
+        "wrapped": false
+      },
+      "value": "Invalid password",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 54,
+      "key": "packages/@core/ui-kit/form-ui/__tests__/form-performance.benchmark.ts#2769",
+      "file": "packages/@core/ui-kit/form-ui/__tests__/form-performance.benchmark.ts",
+      "line": 117,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "bench",
+        "wrapped": false
+      },
+      "value": "encode 100 nested rows without isolation",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 55,
+      "key": "packages/@core/ui-kit/form-ui/__tests__/form-runtime.test.ts#5070",
+      "file": "packages/@core/ui-kit/form-ui/__tests__/form-runtime.test.ts",
+      "line": 171,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "toBe",
+        "wrapped": false
+      },
+      "value": "Server error",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 56,
+      "key": "packages/@core/ui-kit/popup-ui/src/alert/__tests__/alert-builder.test.ts#4199",
+      "file": "packages/@core/ui-kit/popup-ui/src/alert/__tests__/alert-builder.test.ts",
+      "line": 134,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "findAlertContainer",
+        "wrapped": false
+      },
+      "value": "Second alert",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 57,
+      "key": "packages/@core/ui-kit/popup-ui/src/drawer/__tests__/drawer-keep-alive.test.ts#6407",
+      "file": "packages/@core/ui-kit/popup-ui/src/drawer/__tests__/drawer-keep-alive.test.ts",
+      "line": 218,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "preserves the draft when returning to the cached page",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 58,
+      "key": "packages/@core/ui-kit/shadcn-ui/src/components/table-action/__tests__/action-item.test.ts#3134",
+      "file": "packages/@core/ui-kit/shadcn-ui/src/components/table-action/__tests__/action-item.test.ts",
+      "line": 107,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "renders the cancel and confirm buttons with the same size",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 59,
+      "key": "packages/@core/ui-kit/shadcn-ui/src/ui/form/useFormField.ts#324",
+      "file": "packages/@core/ui-kit/shadcn-ui/src/ui/form/useFormField.ts",
+      "line": 13,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "useFormField should be used within <FormField>",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 60,
+      "key": "packages/effects/common-ui/src/components/icon-picker/__tests__/icon-picker.test.ts#11045",
+      "file": "packages/effects/common-ui/src/components/icon-picker/__tests__/icon-picker.test.ts",
+      "line": 373,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "invokes a kebab-case model listener exactly once per selection",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 61,
+      "key": "packages/effects/plugins/src/vxe-table/__tests__/use-vxe-grid.proxy.test.ts#2970",
+      "file": "packages/effects/plugins/src/vxe-table/__tests__/use-vxe-grid.proxy.test.ts",
+      "line": 111,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "expected the rendered query to be a function",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 62,
+      "key": "packages/effects/request/src/request-client/modules/uploader.test.ts#712",
+      "file": "packages/effects/request/src/request-client/modules/uploader.test.ts",
+      "line": 25,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "file content",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 63,
+      "key": "packages/stores/src/modules/dict.test.ts#636",
+      "file": "packages/stores/src/modules/dict.test.ts",
+      "line": 28,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "returns empty array when no handler is injected",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 64,
+      "key": "playground/__tests__/e2e/layout-system.spec.ts#6466",
+      "file": "playground/__tests__/e2e/layout-system.spec.ts",
+      "line": 192,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "document.querySelector",
+        "wrapped": false
+      },
+      "value": "#__vben_main_content .page-route-container",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 65,
+      "key": "playground/__tests__/e2e/layout-system.spec.ts#6743",
+      "file": "playground/__tests__/e2e/layout-system.spec.ts",
+      "line": 199,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Layout content regions are missing",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 66,
+      "key": "apps/web-antdv-next/src/store/auth.ts#1863",
+      "file": "apps/web-antdv-next/src/store/auth.ts",
+      "line": 65,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "description",
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "expr",
+            "code": "$t('authentication.loginSuccessDesc')"
+          },
+          {
+            "type": "text",
+            "value": ":"
+          },
+          {
+            "type": "expr",
+            "code": "userInfo?.realName"
+          }
+        ]
+      },
+      "value": "${$t('authentication.loginSuccessDesc')}:${userInfo?.realName}",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 67,
+      "key": "apps/web-tdesign/src/views/dashboard/workspace/index.vue#3824",
+      "file": "apps/web-tdesign/src/views/dashboard/workspace/index.vue",
+      "line": 181,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "content",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "发表文章 <a>如何编写一个Vite插件</a> "
+          }
+        ]
+      },
+      "value": "发表文章 <a>如何编写一个Vite插件</a> ",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 68,
+      "key": "apps/web-tdesign/src/views/dashboard/workspace/index.vue#3939",
+      "file": "apps/web-tdesign/src/views/dashboard/workspace/index.vue",
+      "line": 187,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "content",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "回复了 <a>杰克</a> 的问题 <a>如何进行项目优化？</a>"
+          }
+        ]
+      },
+      "value": "回复了 <a>杰克</a> 的问题 <a>如何进行项目优化？</a>",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 69,
+      "key": "internal/vite-config/src/plugins/dayjs.ts#758",
+      "file": "internal/vite-config/src/plugins/dayjs.ts",
+      "line": 24,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "dayjs/esm/plugin/${}/index.js",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 70,
+      "key": "packages/effects/layouts/src/widgets/global-search/search-panel.vue#875",
+      "file": "packages/effects/layouts/src/widgets/global-search/search-panel.vue",
+      "line": 36,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "useLocalStorage",
+        "wrapped": false
+      },
+      "value": "__search-history-${}__",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 71,
+      "key": "packages/effects/layouts/src/widgets/theme-toggle/theme-button.vue#1435",
+      "file": "packages/effects/layouts/src/widgets/theme-toggle/theme-button.vue",
+      "line": 63,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "circle(0px at ${}px ${}px)",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 72,
+      "key": "playground/src/views/examples/form/basic.vue#12167",
+      "file": "playground/src/views/examples/form/basic.vue",
+      "line": 491,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "content",
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "expr",
+            "code": "$t('examples.form.upload-urls')"
+          },
+          {
+            "type": "text",
+            "value": ": "
+          },
+          {
+            "type": "expr",
+            "code": "msgCrop"
+          }
+        ]
+      },
+      "value": "${$t('examples.form.upload-urls')}: ${msgCrop}",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 73,
+      "key": "playground/src/views/examples/form/basic.vue#12298",
+      "file": "playground/src/views/examples/form/basic.vue",
+      "line": 495,
+      "kind": "template-literal",
+      "meta": {
+        "propName": "content",
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "expr",
+            "code": "$t('examples.form.upload-error')"
+          },
+          {
+            "type": "text",
+            "value": ": "
+          },
+          {
+            "type": "expr",
+            "code": "msgCrop"
+          }
+        ]
+      },
+      "value": "${$t('examples.form.upload-error')}: ${msgCrop}",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 74,
+      "key": "scripts/turbo-run/src/index.ts#194",
+      "file": "scripts/turbo-run/src/index.ts",
+      "line": 12,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "usage",
+        "wrapped": false
+      },
+      "value": "Run turbo interactively.",
+      "score": 0.4,
+      "accepted": false
+    },
+    {
+      "id": 75,
+      "key": "apps/web-tdesign/src/views/dashboard/analytics/index.vue#1974",
+      "file": "apps/web-tdesign/src/views/dashboard/analytics/index.vue",
+      "line": 85,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "访问来源",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 76,
+      "key": "apps/web-tdesign/src/views/dashboard/workspace/index.vue#5729",
+      "file": "apps/web-tdesign/src/views/dashboard/workspace/index.vue",
+      "line": 256,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "快捷导航",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 77,
+      "key": "playground/src/views/examples/count-to/index.vue#3727",
+      "file": "playground/src/views/examples/count-to/index.vue",
+      "line": 147,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "label",
+        "attrKind": "static"
+      },
+      "value": "小数点",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 78,
+      "key": "playground/src/views/examples/drawer/index.vue#6831",
+      "file": "playground/src/views/examples/drawer/index.vue",
+      "line": 260,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "共享数据：契约工厂",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 79,
+      "key": "playground/src/views/examples/form/basic.vue#14056",
+      "file": "playground/src/views/examples/form/basic.vue",
+      "line": 562,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "基础示例",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 80,
+      "key": "playground/src/views/examples/tiptap/index.vue#1435",
+      "file": "playground/src/views/examples/tiptap/index.vue",
+      "line": 49,
+      "kind": "vue-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "Tiptap 富文本",
+      "score": 1,
+      "accepted": true
+    },
+    {
+      "id": 81,
+      "key": "apps/web-tdesign/src/views/dashboard/workspace/index.vue#5173",
+      "file": "apps/web-tdesign/src/views/dashboard/workspace/index.vue",
+      "line": 241,
+      "kind": "vue-sentence",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 早安, "
+          },
+          {
+            "type": "expr",
+            "code": "userStore.userInfo?.realName"
+          },
+          {
+            "type": "text",
+            "value": ", 开始您一天的工作吧！ "
+          }
+        ],
+        "exprCount": 1
+      },
+      "value": "早安, , 开始您一天的工作吧！",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 82,
+      "key": "docs/src/demos/vben-modal/basic/index.vue#204",
+      "file": "docs/src/demos/vben-modal/basic/index.vue",
+      "line": 8,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Open"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Open",
+      "score": 0.1,
+      "accepted": false
+    },
+    {
+      "id": 83,
+      "key": "docs/src/demos/vben-modal/dynamic/index.vue#514",
+      "file": "docs/src/demos/vben-modal/dynamic/index.vue",
+      "line": 25,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 从外部修改标题并打开 "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "从外部修改标题并打开",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 84,
+      "key": "playground/src/views/demos/features/file-download/index.vue#1381",
+      "file": "playground/src/views/demos/features/file-download/index.vue",
+      "line": 60,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " Download File "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Download File",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 85,
+      "key": "playground/src/views/demos/features/vue-query/infinite-queries.vue#1463",
+      "file": "playground/src/views/demos/features/vue-query/infinite-queries.vue",
+      "line": 54,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "没有更多了"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "没有更多了",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 86,
+      "key": "playground/src/views/demos/features/vue-query/query-retries.vue#745",
+      "file": "playground/src/views/demos/features/vue-query/query-retries.vue",
+      "line": 31,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 发起错误重试 "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "发起错误重试",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 87,
+      "key": "playground/src/views/examples/ellipsis/index.vue#1866",
+      "file": "playground/src/views/examples/ellipsis/index.vue",
+      "line": 38,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 《秦皇岛》"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "《秦皇岛》",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 88,
+      "key": "playground/src/views/examples/form/basic.vue#13832",
+      "file": "playground/src/views/examples/form/basic.vue",
+      "line": 554,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 表单组件基础示例，请注意，该页面用到的参数代码会添加一些简单注释，方便理解，请仔细查看。 "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "表单组件基础示例，请注意，该页面用到的参数代码会添加一些简单注释，方便理解，请仔细查看。",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 89,
+      "key": "playground/src/views/examples/form/scroll-to-error-test.vue#2864",
+      "file": "playground/src/views/examples/form/scroll-to-error-test.vue",
+      "line": 139,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "启用滚动到错误字段"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "启用滚动到错误字段",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 90,
+      "key": "playground/src/views/examples/motion/index.vue#4669",
+      "file": "playground/src/views/examples/motion/index.vue",
+      "line": 154,
+      "kind": "vue-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "按钮1"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "按钮1",
+      "score": 0.9,
+      "accepted": true
+    }
+  ]
+}

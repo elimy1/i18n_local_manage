@@ -1,0 +1,11 @@
+# Keep line endings stable across Windows/macOS/Linux.
+# The engine handles CRLF and BOM explicitly, and its tests assert on exact bytes,
+# so a checkout that rewrites newlines would break behaviour that is working.
+* text=auto eol=lf
+
+# Fixtures are byte-sensitive: they stand in for real user files.
+packages/vscode/test/fixture/** -text
+spike/labels/**/*.sheet.txt text eol=lf
+
+*.vsix binary
+*.png binary

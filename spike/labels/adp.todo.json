@@ -1,0 +1,1651 @@
+{
+  "source": "out/adp.json",
+  "root": "..\\corpus\\ant-design-pro",
+  "sampleSize": 92,
+  "poolSize": 1085,
+  "items": [
+    {
+      "id": 1,
+      "key": "scripts/i18n-remove.js#15357",
+      "file": "scripts/i18n-remove.js",
+      "line": 541,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "✓ 无残留 i18n 调用"
+          }
+        ]
+      },
+      "value": "✓ 无残留 i18n 调用",
+      "score": 0.55,
+      "accepted": true
+    },
+    {
+      "id": 2,
+      "key": "scripts/i18n-remove.js#16227",
+      "file": "scripts/i18n-remove.js",
+      "line": 570,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n>>> 替换路由名称为中文..."
+          }
+        ]
+      },
+      "value": "\n>>> 替换路由名称为中文...",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 3,
+      "key": "scripts/i18n-remove.js#16462",
+      "file": "scripts/i18n-remove.js",
+      "line": 579,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n>>> 删除 locales 目录..."
+          }
+        ]
+      },
+      "value": "\n>>> 删除 locales 目录...",
+      "score": 0.55,
+      "accepted": true
+    },
+    {
+      "id": 4,
+      "key": "scripts/simple.js#3342",
+      "file": "scripts/simple.js",
+      "line": 135,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n>>> 删除 mock 文件..."
+          }
+        ]
+      },
+      "value": "\n>>> 删除 mock 文件...",
+      "score": 0.55,
+      "accepted": true
+    },
+    {
+      "id": 5,
+      "key": "src/pages/user/login/index.tsx#11147",
+      "file": "src/pages/user/login/index.tsx",
+      "line": 379,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "message.success",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "获取验证码成功！验证码为：1234"
+          }
+        ]
+      },
+      "value": "获取验证码成功！验证码为：1234",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 6,
+      "key": "src/requestErrorConfig.ts#2811",
+      "file": "src/requestErrorConfig.ts",
+      "line": 88,
+      "kind": "call-arg",
+      "meta": {
+        "callee": "message.error",
+        "wrapped": false,
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Request error, please retry."
+          }
+        ]
+      },
+      "value": "Request error, please retry.",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 7,
+      "key": "src/pages/dashboard/analysis/components/IntroduceRow.tsx#3256",
+      "file": "src/pages/dashboard/analysis/components/IntroduceRow.tsx",
+      "line": 121,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "运营活动效果",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 8,
+      "key": "src/pages/dashboard/monitor/index.tsx#1844",
+      "file": "src/pages/dashboard/monitor/index.tsx",
+      "line": 59,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "销售目标完成率",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 9,
+      "key": "src/pages/dashboard/monitor/index.tsx#3096",
+      "file": "src/pages/dashboard/monitor/index.tsx",
+      "line": 102,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "券核效率",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 10,
+      "key": "src/pages/dashboard/workplace/index.tsx#4506",
+      "file": "src/pages/dashboard/workplace/index.tsx",
+      "line": 163,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "进行中的项目",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 11,
+      "key": "src/pages/form/advanced-form/index.tsx#7030",
+      "file": "src/pages/form/advanced-form/index.tsx",
+      "line": 275,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "placeholder",
+        "attrKind": "static"
+      },
+      "value": "请选择管理员",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 12,
+      "key": "src/pages/form/basic-form/index.tsx#3111",
+      "file": "src/pages/form/basic-form/index.tsx",
+      "line": 120,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "placeholder",
+        "attrKind": "static"
+      },
+      "value": "请直接 @姓名／工号，最多可邀请 5 人",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 13,
+      "key": "src/pages/form/step-form/index.tsx#2100",
+      "file": "src/pages/form/step-form/index.tsx",
+      "line": 82,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "content",
+        "attrKind": "static"
+      },
+      "value": "将一个冗长或用户不熟悉的表单任务分成多个步骤，指导用户完成。",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 14,
+      "key": "src/pages/form/step-form/index.tsx#4816",
+      "file": "src/pages/form/step-form/index.tsx",
+      "line": 177,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "placeholder",
+        "attrKind": "static"
+      },
+      "value": "请输入金额",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 15,
+      "key": "src/pages/list/basic-list/components/OperationModal.tsx#1751",
+      "file": "src/pages/list/basic-list/components/OperationModal.tsx",
+      "line": 66,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "label",
+        "attrKind": "static"
+      },
+      "value": "开始时间",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 16,
+      "key": "src/pages/list/search/articles/index.tsx#3514",
+      "file": "src/pages/list/search/articles/index.tsx",
+      "line": 161,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "所属类目",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 17,
+      "key": "src/pages/list/search/articles/index.tsx#5454",
+      "file": "src/pages/list/search/articles/index.tsx",
+      "line": 213,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "label",
+        "attrKind": "static"
+      },
+      "value": "好评度",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 18,
+      "key": "src/pages/profile/advanced/index.tsx#9724",
+      "file": "src/pages/profile/advanced/index.tsx",
+      "line": 409,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "title",
+        "attrKind": "static"
+      },
+      "value": "用户信息",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 19,
+      "key": "src/pages/profile/basic/index.tsx#867",
+      "file": "src/pages/profile/basic/index.tsx",
+      "line": 27,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "text",
+        "attrKind": "static"
+      },
+      "value": "进行中",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 20,
+      "key": "src/pages/user/login/index.tsx#5568",
+      "file": "src/pages/user/login/index.tsx",
+      "line": 213,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "defaultMessage",
+        "attrKind": "static"
+      },
+      "value": "其他登录方式",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 21,
+      "key": "src/pages/user/login/index.tsx#9104",
+      "file": "src/pages/user/login/index.tsx",
+      "line": 321,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "defaultMessage",
+        "attrKind": "static"
+      },
+      "value": "请输入手机号！",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 22,
+      "key": "src/pages/user/register-result/index.tsx#857",
+      "file": "src/pages/user/register-result/index.tsx",
+      "line": 31,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "subTitle",
+        "attrKind": "static"
+      },
+      "value": "激活邮件已发送到你的邮箱中，邮件有效期为24小时。请及时登录邮箱，点击邮件中的链接激活帐户。",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 23,
+      "key": "src/pages/user/register/index.tsx#6027",
+      "file": "src/pages/user/register/index.tsx",
+      "line": 231,
+      "kind": "jsx-attr",
+      "meta": {
+        "attrName": "placeholder",
+        "attrKind": "static"
+      },
+      "value": "至少6位密码，区分大小写",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 24,
+      "key": "src/components/Footer/index.tsx#2805",
+      "file": "src/components/Footer/index.tsx",
+      "line": 97,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Umi"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Umi",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 25,
+      "key": "src/pages/account/center/components/Articles/index.tsx#1738",
+      "file": "src/pages/account/center/components/Articles/index.tsx",
+      "line": 58,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "Ant Design"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "Ant Design",
+      "score": 0.75,
+      "accepted": true
+    },
+    {
+      "id": 26,
+      "key": "src/pages/account/settings/components/security.tsx#272",
+      "file": "src/pages/account/settings/components/security.tsx",
+      "line": 9,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "弱 Weak"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "弱 Weak",
+      "score": 1,
+      "accepted": true
+    },
+    {
+      "id": 27,
+      "key": "src/pages/account/settings/components/security.tsx#664",
+      "file": "src/pages/account/settings/components/security.tsx",
+      "line": 31,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n        修改\n      "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "修改",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 28,
+      "key": "src/pages/account/settings/components/security.tsx#830",
+      "file": "src/pages/account/settings/components/security.tsx",
+      "line": 40,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n        设置\n      "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "设置",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 29,
+      "key": "src/pages/dashboard/analysis/components/IntroduceRow.tsx#3811",
+      "file": "src/pages/dashboard/analysis/components/IntroduceRow.tsx",
+      "line": 142,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "12%"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "12%",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 30,
+      "key": "src/pages/dashboard/analysis/components/TopSearch.tsx#2061",
+      "file": "src/pages/dashboard/analysis/components/TopSearch.tsx",
+      "line": 96,
+      "kind": "jsx-sentence",
+      "meta": {
+        "parts": [
+          {
+            "type": "expr",
+            "code": "text"
+          },
+          {
+            "type": "text",
+            "value": "%\n          "
+          }
+        ],
+        "exprCount": 1
+      },
+      "value": "%",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 31,
+      "key": "src/pages/form/advanced-form/index.tsx#4279",
+      "file": "src/pages/form/advanced-form/index.tsx",
+      "line": 168,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n            编辑\n          "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "编辑",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 32,
+      "key": "src/pages/form/basic-form/index.test.tsx#653",
+      "file": "src/pages/form/basic-form/index.test.tsx",
+      "line": 17,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n        提交\n      "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "提交",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 33,
+      "key": "src/pages/list/card-list/index.tsx#1616",
+      "file": "src/pages/list/card-list/index.tsx",
+      "line": 45,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n          产品文档\n        "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "产品文档",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 34,
+      "key": "src/pages/list/card-list/index.tsx#3866",
+      "file": "src/pages/list/card-list/index.tsx",
+      "line": 118,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": " 新增产品\n                "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "新增产品",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 35,
+      "key": "src/pages/profile/basic/index.tsx#3504",
+      "file": "src/pages/profile/basic/index.tsx",
+      "line": 157,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "总计"
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "总计",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 36,
+      "key": "src/pages/result/success/index.tsx#2367",
+      "file": "src/pages/result/success/index.tsx",
+      "line": 104,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n                财务复核\n              "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "财务复核",
+      "score": 0.9,
+      "accepted": true
+    },
+    {
+      "id": 37,
+      "key": "src/pages/Welcome.tsx#2533",
+      "file": "src/pages/Welcome.tsx",
+      "line": 77,
+      "kind": "jsx-text",
+      "meta": {
+        "parts": [
+          {
+            "type": "text",
+            "value": "\n        #\n      "
+          }
+        ],
+        "exprCount": 0
+      },
+      "value": "#",
+      "score": 0.25,
+      "accepted": false
+    },
+    {
+      "id": 38,
+      "key": "cloudflare-worker/src/data/common.ts#2215",
+      "file": "cloudflare-worker/src/data/common.ts",
+      "line": 83,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "专注设计"
+          }
+        ]
+      },
+      "value": "专注设计",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 39,
+      "key": "cloudflare-worker/src/data/common.ts#2281",
+      "file": "cloudflare-worker/src/data/common.ts",
+      "line": 85,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "大长腿"
+          }
+        ]
+      },
+      "value": "大长腿",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 40,
+      "key": "cloudflare-worker/src/data/dashboard.ts#4009",
+      "file": "cloudflare-worker/src/data/dashboard.ts",
+      "line": 145,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "城镇中有那么多的酒馆，她却偏偏走进了我的酒馆"
+          }
+        ]
+      },
+      "value": "城镇中有那么多的酒馆，她却偏偏走进了我的酒馆",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 41,
+      "key": "cloudflare-worker/src/data/dashboard.ts#4292",
+      "file": "cloudflare-worker/src/data/dashboard.ts",
+      "line": 155,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "那时候我只会想自己想要什么，从不想自己拥有什么"
+          }
+        ]
+      },
+      "value": "那时候我只会想自己想要什么，从不想自己拥有什么",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 42,
+      "key": "cloudflare-worker/src/data/notices.ts#2965",
+      "file": "cloudflare-worker/src/data/notices.ts",
+      "line": 118,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "信息安全考试"
+          }
+        ]
+      },
+      "value": "信息安全考试",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 43,
+      "key": "config/config.ts#3111",
+      "file": "config/config.ts",
+      "line": 117,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Ant Design Pro"
+          }
+        ]
+      },
+      "value": "Ant Design Pro",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 44,
+      "key": "mock/notices.ts#1934",
+      "file": "mock/notices.ts",
+      "line": 61,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "朱偏右 回复了你"
+          }
+        ]
+      },
+      "value": "朱偏右 回复了你",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 45,
+      "key": "mock/notices.ts#2694",
+      "file": "mock/notices.ts",
+      "line": 88,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "冠霖提交于 2017-01-06，需在 2017-01-07 前完成代码变更任务"
+          }
+        ]
+      },
+      "value": "冠霖提交于 2017-01-06，需在 2017-01-07 前完成代码变更任务",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 46,
+      "key": "mock/user.ts#737",
+      "file": "mock/user.ts",
+      "line": 27,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "errorMessage",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "请先登录！"
+          }
+        ]
+      },
+      "value": "请先登录！",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 47,
+      "key": "mock/user.ts#2523",
+      "file": "mock/user.ts",
+      "line": 108,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "error"
+          }
+        ]
+      },
+      "value": "error",
+      "score": 0.05,
+      "accepted": false
+    },
+    {
+      "id": 48,
+      "key": "mock/utils.ts#2128",
+      "file": "mock/utils.ts",
+      "line": 79,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "杭州市"
+          }
+        ]
+      },
+      "value": "杭州市",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 49,
+      "key": "src/components/RightContent/LangDropdown.tsx#686",
+      "file": "src/components/RightContent/LangDropdown.tsx",
+      "line": 15,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "Bahasa Indonesia"
+          }
+        ]
+      },
+      "value": "Bahasa Indonesia",
+      "score": 0.7,
+      "accepted": true
+    },
+    {
+      "id": 50,
+      "key": "src/pages/account/settings/components/base.tsx#4387",
+      "file": "src/pages/account/settings/components/base.tsx",
+      "line": 149,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "中国"
+          }
+        ]
+      },
+      "value": "中国",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 51,
+      "key": "src/pages/account/settings/components/notification.tsx#682",
+      "file": "src/pages/account/settings/components/notification.tsx",
+      "line": 31,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "待办任务将以站内信的形式通知"
+          }
+        ]
+      },
+      "value": "待办任务将以站内信的形式通知",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 52,
+      "key": "src/pages/chatbot/index.tsx#3618",
+      "file": "src/pages/chatbot/index.tsx",
+      "line": 135,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "🎨 如何用 antd-style 实现暗色主题切换？"
+          }
+        ]
+      },
+      "value": "🎨 如何用 antd-style 实现暗色主题切换？",
+      "score": 1,
+      "accepted": true
+    },
+    {
+      "id": 53,
+      "key": "src/pages/dashboard/workplace/_mock.ts#5466",
+      "file": "src/pages/dashboard/workplace/_mock.ts",
+      "line": 227,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "description",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "生命就像一盒巧克力，结果往往出人意料"
+          }
+        ]
+      },
+      "value": "生命就像一盒巧克力，结果往往出人意料",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 54,
+      "key": "src/pages/dashboard/workplace/index.tsx#4135",
+      "file": "src/pages/dashboard/workplace/index.tsx",
+      "line": 149,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "交互专家"
+          }
+        ]
+      },
+      "value": "交互专家",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 55,
+      "key": "src/pages/form/step-form/index.tsx#4738",
+      "file": "src/pages/form/step-form/index.tsx",
+      "line": 174,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "请输入合法金额数字"
+          }
+        ]
+      },
+      "value": "请输入合法金额数字",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 56,
+      "key": "src/pages/form/step-form/index.tsx#5734",
+      "file": "src/pages/form/step-form/index.tsx",
+      "line": 208,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "需要支付密码才能进行支付"
+          }
+        ]
+      },
+      "value": "需要支付密码才能进行支付",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 57,
+      "key": "src/pages/list/search/applications/index.tsx#3475",
+      "file": "src/pages/list/search/applications/index.tsx",
+      "line": 137,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "王昭君"
+          }
+        ]
+      },
+      "value": "王昭君",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 58,
+      "key": "src/pages/list/search/applications/style.style.ts#460",
+      "file": "src/pages/list/search/applications/style.style.ts",
+      "line": 14,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "content",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "' '"
+          }
+        ]
+      },
+      "value": "' '",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 59,
+      "key": "src/pages/list/search/projects/index.tsx#4804",
+      "file": "src/pages/list/search/projects/index.tsx",
+      "line": 158,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "优秀"
+          }
+        ]
+      },
+      "value": "优秀",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 60,
+      "key": "src/pages/profile/advanced/index.tsx#2721",
+      "file": "src/pages/profile/advanced/index.tsx",
+      "line": 128,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "执行结果"
+          }
+        ]
+      },
+      "value": "执行结果",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 61,
+      "key": "src/pages/profile/advanced/index.tsx#7480",
+      "file": "src/pages/profile/advanced/index.tsx",
+      "line": 318,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "完成"
+          }
+        ]
+      },
+      "value": "完成",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 62,
+      "key": "src/pages/profile/basic/index.tsx#1294",
+      "file": "src/pages/profile/basic/index.tsx",
+      "line": 57,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "title",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "数量（件）"
+          }
+        ]
+      },
+      "value": "数量（件）",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 63,
+      "key": "src/pages/profile/basic/index.tsx#2011",
+      "file": "src/pages/profile/basic/index.tsx",
+      "line": 103,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "常用快递"
+          }
+        ]
+      },
+      "value": "常用快递",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 64,
+      "key": "src/pages/profile/basic/index.tsx#2080",
+      "file": "src/pages/profile/basic/index.tsx",
+      "line": 108,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "取货地址"
+          }
+        ]
+      },
+      "value": "取货地址",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 65,
+      "key": "src/pages/table-list/components/UpdateForm.tsx#5386",
+      "file": "src/pages/table-list/components/UpdateForm.tsx",
+      "line": 189,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "强"
+          }
+        ]
+      },
+      "value": "强",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 66,
+      "key": "src/pages/user/register/index.tsx#4456",
+      "file": "src/pages/user/register/index.tsx",
+      "line": 173,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "请输入邮箱地址!"
+          }
+        ]
+      },
+      "value": "请输入邮箱地址!",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 67,
+      "key": "src/pages/user/register/index.tsx#6236",
+      "file": "src/pages/user/register/index.tsx",
+      "line": 240,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "确认密码"
+          }
+        ]
+      },
+      "value": "确认密码",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 68,
+      "key": "src/pages/user/register/index.tsx#6682",
+      "file": "src/pages/user/register/index.tsx",
+      "line": 258,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "message",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "手机号格式错误!"
+          }
+        ]
+      },
+      "value": "手机号格式错误!",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 69,
+      "key": "src/utils/chinaDivision.ts#448",
+      "file": "src/utils/chinaDivision.ts",
+      "line": 19,
+      "kind": "obj-prop",
+      "meta": {
+        "propName": "label",
+        "hasExpr": false,
+        "parts": [
+          {
+            "type": "text",
+            "value": "香港特别行政区"
+          }
+        ]
+      },
+      "value": "香港特别行政区",
+      "score": 0.85,
+      "accepted": true
+    },
+    {
+      "id": 70,
+      "key": "cloudflare-worker/src/data/common.ts#1124",
+      "file": "cloudflare-worker/src/data/common.ts",
+      "line": 31,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "那是一种内在的东西， 他们到达不了，也无法触及的",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 71,
+      "key": "cloudflare-worker/src/routes/list.ts#2090",
+      "file": "cloudflare-worker/src/routes/list.ts",
+      "line": 91,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "区划",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 72,
+      "key": "e2e/login.spec.ts#417",
+      "file": "e2e/login.spec.ts",
+      "line": 13,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "toHaveText",
+        "wrapped": false
+      },
+      "value": "Ant Design is the most influential web design specification in Xihu district",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 73,
+      "key": "mock/utils.ts#1415",
+      "file": "mock/utils.ts",
+      "line": 50,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "朱偏右",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 74,
+      "key": "src/components/ErrorBoundary/index.tsx#1179",
+      "file": "src/components/ErrorBoundary/index.tsx",
+      "line": 38,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Something went wrong",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 75,
+      "key": "src/components/ErrorBoundary/index.tsx#1525",
+      "file": "src/components/ErrorBoundary/index.tsx",
+      "line": 46,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Page resources failed to load. Please reload and try again.",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 76,
+      "key": "src/pages/account/center/_mock.ts#443",
+      "file": "src/pages/account/center/_mock.ts",
+      "line": 19,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "全组都是吴彦祖",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 77,
+      "key": "src/pages/dashboard/analysis/index.test.tsx#3494",
+      "file": "src/pages/dashboard/analysis/index.test.tsx",
+      "line": 134,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "describe",
+        "wrapped": false
+      },
+      "value": "Analysis Dashboard",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 78,
+      "key": "src/pages/dashboard/analysis/index.test.tsx#5473",
+      "file": "src/pages/dashboard/analysis/index.test.tsx",
+      "line": 201,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "it",
+        "wrapped": false
+      },
+      "value": "should pass correct data to child components",
+      "score": 0,
+      "accepted": false
+    },
+    {
+      "id": 79,
+      "key": "src/pages/dashboard/workplace/_mock.ts#2484",
+      "file": "src/pages/dashboard/workplace/_mock.ts",
+      "line": 140,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "Ant Design Pro",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 80,
+      "key": "src/pages/list/basic-list/components/OperationModal.tsx#841",
+      "file": "src/pages/list/basic-list/components/OperationModal.tsx",
+      "line": 28,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "添加",
+      "score": 0.8,
+      "accepted": true
+    },
+    {
+      "id": 81,
+      "key": "src/pages/table-list/components/UpdateForm.tsx#997",
+      "file": "src/pages/table-list/components/UpdateForm.tsx",
+      "line": 34,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "messageApi.success",
+        "wrapped": false
+      },
+      "value": "Configuration is successful",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 82,
+      "key": "src/pages/table-list/index.tsx#1464",
+      "file": "src/pages/table-list/index.tsx",
+      "line": 43,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "messageApi.success",
+        "wrapped": false
+      },
+      "value": "Deleted successfully and will refresh soon",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 83,
+      "key": "src/requestErrorConfig.test.ts#3214",
+      "file": "src/requestErrorConfig.test.ts",
+      "line": 116,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "toHaveBeenCalledWith",
+        "wrapped": false
+      },
+      "value": "This is a warning",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 84,
+      "key": "src/requestErrorConfig.test.ts#6290",
+      "file": "src/requestErrorConfig.test.ts",
+      "line": 226,
+      "kind": "string-literal",
+      "meta": {
+        "hasExpr": false,
+        "callee": "toHaveBeenCalledWith",
+        "wrapped": false
+      },
+      "value": "None response! Please retry.",
+      "score": 0.45,
+      "accepted": false
+    },
+    {
+      "id": 85,
+      "key": "scripts/i18n-remove.js#1297",
+      "file": "scripts/i18n-remove.js",
+      "line": 51,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "'${}'",
+      "score": 0.3,
+      "accepted": false
+    },
+    {
+      "id": 86,
+      "key": "scripts/i18n-remove.js#15008",
+      "file": "scripts/i18n-remove.js",
+      "line": 529,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "\\b${}\\b",
+      "score": 0.3,
+      "accepted": false
+    },
+    {
+      "id": 87,
+      "key": "scripts/i18n-remove.js#16161",
+      "file": "scripts/i18n-remove.js",
+      "line": 568,
+      "kind": "template-literal",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "text",
+            "value": "✓ 已加载 "
+          },
+          {
+            "type": "expr",
+            "code": "Object.keys(localeMap).length"
+          },
+          {
+            "type": "text",
+            "value": " 条翻译映射"
+          }
+        ]
+      },
+      "value": "✓ 已加载 ${Object.keys(localeMap).length} 条翻译映射",
+      "score": 0.65,
+      "accepted": true
+    },
+    {
+      "id": 88,
+      "key": "scripts/simple.js#1394",
+      "file": "scripts/simple.js",
+      "line": 57,
+      "kind": "template-literal",
+      "meta": {
+        "callee": "console.log",
+        "wrapped": false,
+        "hasExpr": true,
+        "parts": [
+          {
+            "type": "text",
+            "value": "- 文件不存在，跳过: "
+          },
+          {
+            "type": "expr",
+            "code": "filePath"
+          }
+        ]
+      },
+      "value": "- 文件不存在，跳过: ${filePath}",
+      "score": 0.65,
+      "accepted": true
+    },
+    {
+      "id": 89,
+      "key": "src/pages/chatbot/style.ts#451",
+      "file": "src/pages/chatbot/style.ts",
+      "line": 20,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    overflow: hidden;\n    min-width: 0;\n    background: ${};\n  ",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 90,
+      "key": "src/pages/chatbot/style.ts#1012",
+      "file": "src/pages/chatbot/style.ts",
+      "line": 49,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "\n    flex: 1;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: center;\n    padding: ${}px;\n    gap: 32px;\n    margin-top: -10%;\n  ",
+      "score": 0.5,
+      "accepted": true
+    },
+    {
+      "id": 91,
+      "key": "src/pages/form/advanced-form/index.tsx#1931",
+      "file": "src/pages/form/advanced-form/index.tsx",
+      "line": 76,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "document.querySelector",
+        "wrapped": false
+      },
+      "value": "label[for=\"${}\"]",
+      "score": 0.35,
+      "accepted": false
+    },
+    {
+      "id": 92,
+      "key": "src/utils/chinaDivision.ts#638",
+      "file": "src/utils/chinaDivision.ts",
+      "line": 25,
+      "kind": "template-literal",
+      "meta": {
+        "hasExpr": true,
+        "callee": "",
+        "wrapped": false
+      },
+      "value": "${}00",
+      "score": 0.3,
+      "accepted": false
+    }
+  ]
+}

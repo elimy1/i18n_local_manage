@@ -1,0 +1,13 @@
+{
+  "dataset": "vue-vben-admin",
+  "labeled": 90,
+  "method": "stratified random sample of the candidate pool, hand-labeled by the author",
+  "positive": [18, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 31, 32, 36, 37, 38, 39, 40, 41, 42, 43, 44, 46, 47, 67, 68, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90],
+  "notes": [
+    "#19 'common.delete' used as .title is an existing i18n key consumed later by $t() => negative (double-wrapping risk)",
+    "#20 'Angular' / #29 'Vue' are brand labels rendered as card titles => counted positive (user-visible copy)",
+    "#35 'New' and #45 'success' live in test fixtures / enum dict values => negative",
+    "#48 'Transaction aborted' and #59 'useFormField should be used within <FormField>' are developer errors => negative",
+    "#49-65 are test titles, e2e selectors and assertion messages => negative; the scanner must exclude __tests__/e2e by default"
+  ]
+}

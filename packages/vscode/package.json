@@ -1,0 +1,216 @@
+{
+  "name": "i18n-codemod",
+  "displayName": "i18n Codemod",
+  "description": "Extract hard-coded strings into i18n catalogs — with coverage you can put in CI.",
+  "version": "0.1.0",
+  "publisher": "i18n-codemod",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "vscode": "^1.94.0"
+  },
+  "categories": [
+    "Programming Languages",
+    "Linters",
+    "Other"
+  ],
+  "keywords": [
+    "i18n",
+    "l10n",
+    "translation",
+    "codemod",
+    "react",
+    "vue",
+    "next-intl",
+    "vue-i18n"
+  ],
+  "extensionKind": [
+    "workspace"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": false,
+    "untrustedWorkspaces": {
+      "supported": "limited",
+      "description": "Rewriting source files requires a trusted workspace."
+    }
+  },
+  "main": "./dist/extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "i18nCodemod.scan",
+        "title": "Scan Workspace for Hard-coded Strings",
+        "category": "i18n Codemod",
+        "icon": "$(search)"
+      },
+      {
+        "command": "i18nCodemod.applyAll",
+        "title": "Extract All (Rewrite Workspace)",
+        "category": "i18n Codemod",
+        "icon": "$(wand)"
+      },
+      {
+        "command": "i18nCodemod.extractFile",
+        "title": "Extract Strings in This File",
+        "category": "i18n Codemod"
+      },
+      {
+        "command": "i18nCodemod.previewFile",
+        "title": "Preview Extraction for This File",
+        "category": "i18n Codemod"
+      },
+      {
+        "command": "i18nCodemod.showReport",
+        "title": "Show Coverage Report",
+        "category": "i18n Codemod",
+        "icon": "$(graph)"
+      },
+      {
+        "command": "i18nCodemod.clearCache",
+        "title": "Clear Scan Cache",
+        "category": "i18n Codemod"
+      },
+      {
+        "command": "i18nCodemod.explainString",
+        "title": "Why Was This (Not) Extracted?",
+        "category": "i18n Codemod"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "i18nCodemod",
+          "title": "i18n Codemod",
+          "icon": "$(globe)"
+        }
+      ]
+    },
+    "views": {
+      "i18nCodemod": [
+        {
+          "id": "i18nCodemod.candidates",
+          "name": "Hard-coded Strings"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "i18nCodemod.candidates",
+        "contents": "No scan yet.\n[Scan workspace](command:i18nCodemod.scan)"
+      }
+    ],
+    "menus": {
+      "view/title": [
+        {
+          "command": "i18nCodemod.scan",
+          "when": "view == i18nCodemod.candidates",
+          "group": "navigation@1"
+        },
+        {
+          "command": "i18nCodemod.applyAll",
+          "when": "view == i18nCodemod.candidates",
+          "group": "navigation@2"
+        },
+        {
+          "command": "i18nCodemod.showReport",
+          "when": "view == i18nCodemod.candidates",
+          "group": "navigation@3"
+        }
+      ],
+      "editor/context": [
+        {
+          "command": "i18nCodemod.extractFile",
+          "when": "resourceLangId =~ /javascript|typescript|vue|javascriptreact|typescriptreact/",
+          "group": "1_modification@9"
+        },
+        {
+          "command": "i18nCodemod.previewFile",
+          "when": "resourceLangId =~ /javascript|typescript|vue|javascriptreact|typescriptreact/",
+          "group": "1_modification@10"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "i18n Codemod",
+      "properties": {
+        "i18nCodemod.threshold": {
+          "type": "number",
+          "default": 0.55,
+          "minimum": 0.3,
+          "maximum": 1,
+          "markdownDescription": "Confidence cut-off for extraction. 0.55 keeps precision around 91% on the benchmark corpus; lower it to catch more English strings at the cost of false positives."
+        },
+        "i18nCodemod.namespace": {
+          "type": "string",
+          "default": "app",
+          "description": "Namespace prefix for generated keys."
+        },
+        "i18nCodemod.keysFile": {
+          "type": "string",
+          "default": "out/keys.json",
+          "description": "Key registry, relative to the workspace root. Committing this file is what makes keys stable across runs."
+        },
+        "i18nCodemod.catalogDir": {
+          "type": "string",
+          "default": "",
+          "description": "Locale directory to write extracted copy into (e.g. src/locales). Empty disables catalog export."
+        },
+        "i18nCodemod.aliasUseT": {
+          "type": "string",
+          "default": "",
+          "description": "Module that exports the useT hook. Empty = take it from the selected adapter."
+        },
+        "i18nCodemod.aliasI18n": {
+          "type": "string",
+          "default": "",
+          "description": "Module that exports the i18n singleton. Empty = take it from the selected adapter."
+        },
+        "i18nCodemod.aliasTrans": {
+          "type": "string",
+          "default": "",
+          "description": "Module that exports the rich-text component. Empty = take it from the selected adapter."
+        },
+        "i18nCodemod.showStatusBar": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show translation coverage in the status bar."
+        },
+        "i18nCodemod.maxFiles": {
+          "type": "number",
+          "default": 0,
+          "description": "Cap the number of files per scan (0 = no cap). Useful on very large monorepos."
+        },
+        "i18nCodemod.adapter": {
+          "type": "string",
+          "enum": [
+            "auto",
+            "next-intl",
+            "react-i18next",
+            "vue-i18n",
+            "generic"
+          ],
+          "default": "auto",
+          "description": "Framework adapter. auto reads package.json dependencies."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "package": "node scripts/package.mjs"
+  },
+  "dependencies": {
+    "@i18n-codemod/core": "workspace:*",
+    "@i18n-codemod/adapters": "workspace:*"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/vscode": "^1.94.0",
+    "@vscode/vsce": "^3.2.1",
+    "typescript": "^5.9.3"
+  }
+}
